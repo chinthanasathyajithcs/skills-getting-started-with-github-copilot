@@ -12,9 +12,14 @@
       "module": "uvicorn",
       "args": [
         "src.app:app",
-        "--reload"
+        "--reload",
+        "--host",
+        "0.0.0.0",
+        "--port",
+        "8000"
       ],
       "jinja": true
     }
   ]
 }
+ 
